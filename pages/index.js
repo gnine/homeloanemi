@@ -22,8 +22,8 @@ export default function Home() {
         <title>Home Loan EMI Calculator</title>
         <meta name="description" content="Calculate your home loan EMI easily with our online calculator. Perfect for quick estimations and financial planning." />
       </Head>
-      <h1>Home Loan EMI Calculator</h1>
-      <p>Quickly calculate your monthly installment with our easy-to-use home loan EMI calculator.</p>
+      <h1 className={styles.title}>Home Loan EMI Calculator</h1>
+      <p className={styles.subtitle}>Quickly calculate your monthly installment with our easy-to-use home loan EMI calculator.</p>
       
       <div className={styles.calculator}>
         <label>Loan Amount (₹):</label>
@@ -45,7 +45,7 @@ export default function Home() {
       </div>
 
       <section className={styles.faq}>
-        <h2>Frequently Asked Questions</h2>
+        <h2 className={styles.subtitle}>Frequently Asked Questions</h2>
         <div className={styles.question}>
           <h3>How is EMI calculated for a home loan?</h3>
           <p>EMI is calculated based on the principal amount, interest rate, and tenure of the loan. Use our calculator to get an accurate estimation.</p>
